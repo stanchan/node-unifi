@@ -29,7 +29,7 @@ const EventEmitter = require('eventemitter2').EventEmitter2;
 const WebSocket = require('ws');
 const axios = require('axios');
 const {CookieJar} = require('tough-cookie');
-const {HttpCookieAgent, HttpsCookieAgent} = require('http-cookie-agent/http');
+const {HttpCookieAgent, HttpsCookieAgent} = require('http-cookie-agent');
 
 /// ///////////////////////////////////////////////////////////
 // PUBLIC CLASS
